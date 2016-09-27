@@ -1,0 +1,7 @@
+[
+  {
+    "id": "PREDEFINED",
+    "description": "This translation is defined in a defineMessage.",
+    "defaultMessage": "Hello I am predefined in an object."
+  }
+]

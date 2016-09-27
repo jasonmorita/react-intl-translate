@@ -25,7 +25,7 @@ const App = (props) => {
       <IntlProvider locale={ locale.name } messages={ locale.messages }>
         <div>
             <FormattedInline {...props} />
-            <FormattedPredefined {...props} />
+            <FormattedPredefined {...props} />            
         </div>
       </IntlProvider>
   );

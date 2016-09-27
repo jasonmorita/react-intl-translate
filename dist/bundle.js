@@ -26188,11 +26188,10 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	var FormattedPredefined = function FormattedPredefined(props) {
-
 	  var translations = (0, _reactIntl.defineMessages)({
 	    predefinedTranslation: {
 	      'id': 'PREDEFINED',
-	      'defaultMessage': 'Hello I am predefined in an object'
+	      'defaultMessage': 'Hello I am predefined in an object.'
 	    }
 	  });
 
@@ -26228,8 +26227,8 @@
 /***/ function(module, exports) {
 
 	module.exports = {
-		"PREDEFINED": "Hello I am in Spanish",
-		"INLINE": "Oh it's you again, I am SPANISH inline of a Formatted message!"
+		"PREDEFINED": "Hola estoy predefinidos en un objeto.",
+		"INLINE": "Estoy formateado en atributos en línea."
 	};
 
 /***/ },
@@ -26243,8 +26242,8 @@
 /***/ function(module, exports) {
 
 	module.exports = {
-		"PREDEFINED": "FRENCH!",
-		"INLINE": "inline french!"
+		"PREDEFINED": "Bonjour, Je suis prédéfinis dans un objet.",
+		"INLINE": "Je formaté dans les attributs en ligne."
 	};
 
 /***/ }
