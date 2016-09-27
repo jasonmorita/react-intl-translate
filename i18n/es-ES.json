@@ -1,5 +1,5 @@
 
   {
-    "PREDEFINED": "Hello I am in Spanish",
-    "INLINE": "Oh it's you again, I am SPANISH inline of a Formatted message!"
+    "PREDEFINED": "Hola estoy predefinidos en un objeto.",
+    "INLINE": "Estoy formateado en atributos en línea."
   }
