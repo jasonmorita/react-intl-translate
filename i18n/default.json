@@ -15,6 +15,11 @@
             "description": "Photo count.",
             "defaultMessage": "You have {numPhotos, plural, =0 {no photos.} =1 {one photo.} other {# photos.}}"
         },
+        "lastLoginString": {
+            "id": "lastLoginString",
+            "description": "Last login.",
+            "defaultMessage": "You're last login: "
+        },
         "menu": {
             "id": "menu",
             "description": "Word for 'menu'.",

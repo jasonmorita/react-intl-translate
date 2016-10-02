@@ -10,9 +10,9 @@ import esMessages from '../i18n/es-ES.json';
 
 addLocaleData([...es]);
 
-const App = (props) => (
+const App = () => (
       <IntlProvider locale="es" messages={ esMessages }>
-        <Container />
+        <Container name="Dr. Frankenstein" unreadCount="45676" numPhotos="65" lastLogin="1459832991883" />
       </IntlProvider>
   );
 

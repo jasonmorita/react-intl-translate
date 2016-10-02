@@ -6,7 +6,7 @@ import Content from './Content'
 const Container = (props) => {
   return (
       <div>
-          <Header />
+          <Header {...props} />
           <Content />
       </div>
   );
