@@ -10,12 +10,10 @@ import esMessages from '../i18n/es-ES.json';
 
 addLocaleData([...es]);
 
-const App = (props) => {
-  return (
+const App = (props) => (
       <IntlProvider locale="es" messages={ esMessages }>
         <Container />
       </IntlProvider>
   );
-};
 
 ReactDOM.render(<App/>, document.getElementById('app'));
