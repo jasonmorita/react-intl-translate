@@ -11,10 +11,7 @@ module.exports = {
       {
         test: /\.jsx?$/,            // Convert ES2015/React-code into ES5.
         exclude: /node_modules/,
-        loader: 'babel',
-        query: {
-          presets: ['es2015', 'react']
-        }
+        loader: 'babel'
       },
       {
         test: /\.json$/,            // Load JSON-files into code base.

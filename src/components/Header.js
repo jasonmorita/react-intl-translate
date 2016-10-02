@@ -1,13 +1,15 @@
 
 import React from 'react';
-import { FormattedMessage } from 'react-intl';
-import defaultMessages from '../../i18n/default.json';
+import { FormattedMessage, defineMessages } from 'react-intl';
+import  { headerStrings} from '../../i18n/default.json';
+
+const strings = defineMessages(headerStrings)
 
 const Header = (props) => {
     return (
         <header>
             <div>
-                <FormattedMessage id="headerStrings.title" defaultMessage={defaultMessages.headerStrings.title.defaultMessage} />
+                <FormattedMessage id="headerStrings.title" defaultMessage={strings.title.defaultMessage} />
             </div>
         </header>
     );

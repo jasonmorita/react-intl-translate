@@ -12,7 +12,7 @@ addLocaleData([...es]);
 
 const App = (props) => {
   return (
-      <IntlProvider locale="es" messages={ esMessages }>
+      <IntlProvider locale="" messages={ null }>
         <Container />
       </IntlProvider>
   );
