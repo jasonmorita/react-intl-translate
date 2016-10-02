@@ -1,5 +1,6 @@
-
-  {
-    "PREDEFINED": "Hola estoy predefinidos en un objeto.",
-    "INLINE": "Estoy formateado en atributos en línea."
-  }
+{
+    "headerStrings.title":  "ES: Intl Company, Inc.",
+    "headerStrings.menu":  "ES: Menu",
+    "contentStrings.title": "ES: This is the H1 for the content",
+    "contentStrings.content": "ES: Four score and seven years ago our fathers brought forth on this continent a new nation, conceived in liberty, and dedicated to the proposition that all men are created equal."
+}
