@@ -5,6 +5,16 @@
             "description": "Title of the app.",
             "defaultMessage": "Intl Company, Inc."
         },
+        "welcome": {
+            "id": "welcome",
+            "description": "Welcome message.",
+            "defaultMessage": "Hello {name}, you have {unreadCount, number} {unreadCount, plural, one {message} other {messages}}"
+        },
+        "numPhotos": {
+            "id": "numPhotos",
+            "description": "Photo count.",
+            "defaultMessage": "You have {numPhotos, plural, =0 {no photos.} =1 {one photo.} other {# photos.}}"
+        },
         "menu": {
             "id": "menu",
             "description": "Word for 'menu'.",
@@ -15,7 +25,7 @@
         "title": {
             "id": "title",
             "description": "Title of the content.",
-            "defaultMessage": "This is the H1 for the content"
+            "defaultMessage": "Gettysburg Address"
         },
         "content": {
             "id": "body",
