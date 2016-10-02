@@ -1,0 +1,26 @@
+{
+    "headerStrings": {
+        "title": {
+            "id": "title",
+            "description": "Title of the app.",
+            "defaultMessage": "Intl Company, Inc."
+        },
+        "menu": {
+            "id": "menu",
+            "description": "Word for 'menu'.",
+            "defaultMessage": "Menu"
+        }
+    },
+    "contentStrings": {
+        "title": {
+            "id": "title",
+            "description": "Title of the content.",
+            "defaultMessage": "This is the H1 for the content"
+        },
+        "content": {
+            "id": "body",
+            "description": "The paragraph of text.",
+            "defaultMessage": "Four score and seven years ago our fathers brought forth on this continent a new nation, conceived in liberty, and dedicated to the proposition that all men are created equal."
+        }
+    }
+}
