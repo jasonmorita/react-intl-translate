@@ -1,17 +1,29 @@
 
 import React from 'react';
-import { FormattedMessage, defineMessages } from 'react-intl';
-import defaultMessages from '../../i18n/default.json';
+import { FormattedMessage } from 'react-intl';
+import { connect } from 'react-redux';
 
-const Content = (props) => (
+const ContentComponent = (props) => {
+    return (
         <section>
             <h1>
-                <FormattedMessage id="contentStrings.title" defaultMessage={defaultMessages.contentStrings.title.defaultMessage} />
+                <FormattedMessage id="contentStrings.title" defaultMessage={props.store.intl.defaultMessages.contentStrings.title.defaultMessage} />
             </h1>
             <p>
-                <FormattedMessage id="contentStrings.content" defaultMessage={defaultMessages.contentStrings.content.defaultMessage} />
+                <FormattedMessage id="contentStrings.content" defaultMessage={props.store.intl.defaultMessages.contentStrings.content.defaultMessage} />
             </p>
         </section>
     );
+}
+
+const mapStateToProps = (state) => {
+    return {
+        store: state
+    }
+};
+
+export const Content = connect(
+    mapStateToProps
+)(ContentComponent);
 
 export default Content;
