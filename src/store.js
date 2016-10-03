@@ -2,7 +2,7 @@
 import {createStore, combineReducers, applyMiddleware} from 'redux';
 import thunkMiddleware from 'redux-thunk';
 import compose from 'lodash.compose';
-import reducer from './components/reducer';
+import reducer from './reducer';
 import { IntlProvider, addLocaleData } from 'react-intl';
 
 let store = createStore(reducer, compose(
