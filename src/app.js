@@ -3,15 +3,22 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { IntlProvider } from 'react-intl';
 import {FormattedNumber} from 'react-intl';
-import { Provider } from 'react-redux';
+import { Provider, connect } from 'react-redux';
 import store from './store';
 import Container from './components/Container';
 
+const mapIntlStateToProps = (state) => {
+  const { locale, messages } = state.intl;
+  return { locale, messages };
+};
+
+const ConnectIntlProvider = connect(mapIntlStateToProps)(IntlProvider);
+
 const App = () => (
     <Provider store={ store }>
-        <IntlProvider locale={ store.getState().intl.locale } messages={ store.getState().intl.messages }>
+        <ConnectIntlProvider>
             <Container name="Dr. Frankenstein" unreadCount="45676" numPhotos="65" lastLogin="1459832991883" />
-        </IntlProvider>
+        </ConnectIntlProvider>
     </Provider>
 );
 

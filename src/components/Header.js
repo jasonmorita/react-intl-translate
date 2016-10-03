@@ -23,6 +23,7 @@ const HeaderComponent = (props) => {
                     day='2-digit'
                 />
             </div>
+            Locale: {props.store.intl.locale}
         </header>
     );
 }
