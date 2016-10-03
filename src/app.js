@@ -1,14 +1,11 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { IntlProvider, addLocaleData } from 'react-intl';
+import { IntlProvider } from 'react-intl';
 import {FormattedNumber} from 'react-intl';
 import { Provider } from 'react-redux';
 import store from './store';
 import Container from './components/Container';
-
-import es from 'react-intl/locale-data/es';
-addLocaleData([...es]);
 
 const App = () => (
     <Provider store={ store }>
