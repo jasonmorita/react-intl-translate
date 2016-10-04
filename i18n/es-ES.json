@@ -3,6 +3,7 @@
     "headerStrings.welcome":  "Hola {name}, que tiene {unreadCount, number} {unreadCount, plural, one {mensaje} other {mensajes}}",
     "headerStrings.numPhotos":  "Usted {numPhotos, plural, =0 {no tiene fotos.} =1 {tiene una foto.} other {tiene # fotos.}}",
     "headerStrings.lastLoginString":  "Eres el último registro: ",
+    "headerStrings.selectValue": "Selected: {selectValue, select, a {It's A!} b {It's B!}}",
     "contentStrings.title": "La direccion de Gettysburg",
     "contentStrings.content": "Hace cuatro partitura y siete años nuestros padres producidos en este continente una nueva nación, concebida en libertad y consagrada al principio de que todos los hombres son creados iguales."
 }

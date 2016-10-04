@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux';
 import { addLocaleData } from 'react-intl';
 
-import { defaultMessages } from '../i18n/default.json';
+import defaultMessages from '../i18n/default.json';
 import esMessages from '../i18n/es-ES.json';
-
 import es from 'react-intl/locale-data/es';
+
 addLocaleData([...es]);
 
 const messages = {

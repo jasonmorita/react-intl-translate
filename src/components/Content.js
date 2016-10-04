@@ -7,10 +7,12 @@ const ContentComponent = (props) => {
     return (
         <section>
             <h1>
-                <FormattedMessage id="contentStrings.title" defaultMessage={props.store.intl.defaultMessages.contentStrings.title.defaultMessage} />
+                <FormattedMessage id="contentStrings.title"
+                    defaultMessage={props.store.intl.defaultMessages["contentStrings.title"].message} />
             </h1>
             <p>
-                <FormattedMessage id="contentStrings.content" defaultMessage={props.store.intl.defaultMessages.contentStrings.content.defaultMessage} />
+                <FormattedMessage id="contentStrings.content"
+                    defaultMessage={props.store.intl.defaultMessages["contentStrings.content"].message} />
             </p>
         </section>
     );

@@ -17,7 +17,7 @@ const ConnectIntlProvider = connect(mapIntlStateToProps)(IntlProvider);
 const App = () => (
     <Provider store={ store }>
         <ConnectIntlProvider>
-            <Container name="Dr. Frankenstein" unreadCount="45676" numPhotos="65" lastLogin="1459832991883" />
+            <Container name="Dr. Frankenstein" selectValue="a" unreadCount="45676" numPhotos="65" lastLogin="1459832991883" />
         </ConnectIntlProvider>
     </Provider>
 );
